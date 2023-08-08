@@ -19,7 +19,7 @@ namespace SalesWebMvc.Migrations
                     BirthDate = table.Column<DateTime>(nullable: false),
                     BaseSalary = table.Column<double>(nullable: false),
                     DepartmentId = table.Column<int>(nullable: true)
-                },
+                }, 
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Seller", x => x.Id);
